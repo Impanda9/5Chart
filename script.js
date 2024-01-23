@@ -9,7 +9,7 @@ document.getElementById("quiz-form").addEventListener("submit", function(event) 
         localStorage.setItem("Score chart", answerValue);
         console.log("Selected answer registered in local storage:", answerValue);
 
-        window.location.href = "6.ETabl.html";
+        window.location.href = "https://impanda9.github.io/6Elist/";
     } else {
         console.log("No answer selected");
     }
